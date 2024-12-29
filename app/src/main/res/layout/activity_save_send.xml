@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/shuv_bg"
+    tools:context=".SaveSend">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tvSeS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="30dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/bonnard"
+                android:textAllCaps="false"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                android:background="#FFFFFF"
+                android:text="Save and/or Send\nyour exercise"/>
+
+            <TextView
+                android:id="@+id/tvExer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="30dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/bonnard"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/bSv"
+                android:onClick="saveExer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/bonnard"
+                android:textAllCaps="false"
+                android:text="Save this exercise"/>
+
+            <Button
+                android:id="@+id/bSd"
+                android:onClick="sendExerSms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="30dp"
+                android:fontFamily="@font/bonnard"
+                android:textAllCaps="false"
+                android:text="Send this exercise"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

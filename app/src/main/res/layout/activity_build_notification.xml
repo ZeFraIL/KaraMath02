@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".BuildNotification">
+
+
+    <ImageButton
+        android:id="@+id/ibData"
+        android:onClick="chooseDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/calendar"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:id="@+id/tvNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="40dp"/>
+
+    <ImageButton
+        android:id="@+id/ibTime"
+        android:onClick="chooseTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/clock"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/bNoti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goBuildNotification"
+        android:text="Go build notification\nfor next use" />
+
+    <Button
+        android:id="@+id/bAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="backToWork"
+        android:text="Back to work again" />
+
+</LinearLayout>

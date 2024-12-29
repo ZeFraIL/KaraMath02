@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/shuv_bg"
+    tools:context=".Entrance">
+
+    <ImageView
+        android:id="@+id/bKara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/karabutton"
+        android:clickable="true"
+        android:layout_marginBottom="70dp"/>
+
+    <ImageView
+        android:id="@+id/bRus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/rusbutton"
+        android:clickable="true"
+        android:layout_marginBottom="70dp"/>
+
+    <ImageView
+        android:id="@+id/bEng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/engbutton" />
+
+</LinearLayout>

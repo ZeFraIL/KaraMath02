@@ -1,0 +1,16 @@
+The application is designed to work with linear and quadratic functions, as well as quadratic and linear equations.
+
+The application has three interface languages: Karakalpak, Russian and English.
+
+The user has access to the ability to store and view the exercises done.
+There is also the ability to view reference materials (videos and sites).
+
+The user can select the type of the desired function (equation) and enter the values of the coefficients of his choice.
+
+For equations, the application calculates the roots and displays their value (or text message about their absence).
+
+Along with the roots, the application also shows a graph of the corresponding (by coefficients) function.
+
+In the application, you can set the range of values along the X axis and the number of points, and then get the plotted function graph and the list of coordinates of the corresponding points.
+
+It is possible to rip out the date and time for the next time you work with the application and at the right time a reminder will appear on the phone in advance.

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/shuv_bg"
+    tools:context=".Coefficients">
+
+    <TextView
+        android:id="@+id/tvCoeff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFFFFF"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:fontFamily="@font/bonnard"
+        android:textAllCaps="false"
+        android:text="Make choose:\n linear or quadratic function?"/>
+
+    <RadioGroup
+        android:id="@+id/RG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFdd"
+        android:padding="15dp"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/rbL"
+            android:onClick="LorQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Linear"/>
+
+        <RadioButton
+            android:id="@+id/rbQ"
+            android:onClick="LorQ"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Quadratic"/>
+
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/etA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:background="#FFFFDD"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:hint="Enter 'a' coefficient"/>
+
+    <EditText
+        android:id="@+id/etB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:background="#FFFFDD"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:hint="Enter 'b' coefficient"/>
+
+    <EditText
+        android:id="@+id/etC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberSigned"
+        android:background="#FFFFDD"
+        android:padding="15dp"
+        android:layout_margin="20dp"
+        android:textStyle="bold"
+        android:hint="Enter 'c' coefficient"/>
+
+    <Button
+        android:id="@+id/bStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:fontFamily="@font/bonnard"
+        android:textAllCaps="false"
+        android:text="Start"/>
+</LinearLayout>

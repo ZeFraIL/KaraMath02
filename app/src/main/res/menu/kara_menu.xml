@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Qollanba"
+        android:id="@+id/guide"/>
+
+    <item
+        android:title="Qosımshanı  jaratıwshılar"
+        android:id="@+id/credit"/>
+
+    <item
+        android:title="Artqa"
+        android:id="@+id/back"/>
+
+    <item
+        android:title="Maǵlıwmatlardı kóriw"
+        android:id="@+id/inform"/>
+
+    <item
+        android:title="Qayta paydalanıw"
+        android:id="@+id/buildnoti"/>
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"/>
+
+    <item
+        android:title="Restart"
+        android:id="@+id/restart"/>
+
+
+</menu>

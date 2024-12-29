@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Руководство пользователя"
+        android:id="@+id/guide"/>
+
+    <item
+        android:title="Разработчики"
+        android:id="@+id/credit"/>
+
+    <item
+        android:title="Вернуться к предыдущему экрану"
+        android:id="@+id/back"/>
+
+    <item
+        android:title="Информация"
+        android:id="@+id/inform"/>
+
+    <item
+        android:title="Поработать еще раз"
+        android:id="@+id/buildnoti"/>
+
+    <item
+        android:title="Exit"
+        android:id="@+id/exit"/>
+
+    <item
+        android:title="Вернуться к началу"
+        android:id="@+id/restart"/>
+
+
+</menu>
